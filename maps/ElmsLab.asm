@@ -1014,19 +1014,19 @@ ElmAfterTheftText5:
 	cont "with #MON too."
 
 	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	line "get your PhD"
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "The closest"
+    line "COLLEGE would be"
+	cont "the one in"
+	cont "VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
 	text "…<PLAY_G>. The"
 	line "road to the"
 
-	para "championship will"
+	para "doctorate will"
 	line "be a long one."
 
 	para "Before you leave,"
@@ -1282,8 +1282,8 @@ ElmsLabOfficerText1:
 
 	para "What?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "You met a"
+	line "person like that?"
 
 	para "Did you happen to"
 	line "get his name?"

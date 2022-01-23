@@ -11,17 +11,16 @@ _OakText7::
 	line "#MON story is"
 	cont "about to unfold."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "You'll face hard"
+	line "questions and"
+	cont "strong points."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "A world of study"
+	line "and inquiry"
+	cont "with #MON"
+	cont "awaits! Let's go!"
 
-	para "with #MON"
-	line "awaits! Let's go!"
-
-	para "I'll be seeing you"
+	para "We shall meet"
 	line "later!"
 	done
 
@@ -109,7 +108,6 @@ _MobileBattleRulesText::
 	line "finished within"
 
 	para "the time limit,"
-	line "the player with"
 
 	para "the fewest fainted"
 	line "#MON wins."

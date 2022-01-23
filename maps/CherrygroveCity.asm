@@ -335,7 +335,7 @@ CherrygroveCity_RivalExitsStageLeft:
 
 GuideGentIntroText:
 	text "You're a rookie"
-	line "trainer, aren't"
+	line "teacher, aren't"
 	cont "you? I can tell!"
 
 	para "That's OK! Every-"
@@ -354,10 +354,10 @@ GuideGentTourText1:
 
 GuideGentPokecenterText:
 	text "This is a #MON"
-	line "CENTER. They heal"
+	line "CENTER. They help"
 
-	para "your #MON in no"
-	line "time at all."
+	para "reindoctrinate"
+    line "your #MON."
 
 	para "You'll be relying"
 	line "on them a lot, so"
@@ -371,7 +371,7 @@ GuideGentMartText:
 	line "MART."
 
 	para "They sell BALLS"
-	line "for catching wild"
+	line "for coercing wild"
 
 	para "#MON and other"
 	line "useful items."
@@ -381,7 +381,7 @@ GuideGentRoute30Text:
 	text "ROUTE 30 is out"
 	line "this way."
 
-	para "Trainers will be"
+	para "Teachers will be"
 	line "battling their"
 
 	para "prized #MON"
@@ -464,7 +464,7 @@ CherrygroveRivalText_YouLost:
 	para "I'm going to be"
 	line "the world's great-"
 	cont "est #MON"
-	cont "trainer."
+	cont "teacher."
 	done
 
 SilverCherrygroveLossText:
@@ -480,7 +480,7 @@ CherrygroveRivalText_YouWon:
 	para "I'm going to be"
 	line "the world's great-"
 	cont "est #MON"
-	cont "trainer."
+	cont "teacher."
 	done
 
 CherrygroveTeacherText_NoMapCard:
@@ -496,7 +496,9 @@ CherrygroveTeacherText_NoMapCard:
 CherrygroveTeacherText_HaveMapCard:
 	text "When you're with"
 	line "#MON, going"
-	cont "anywhere is fun."
+	cont "anywhere can lead"
+    cont "to productive"
+    cont "discussions."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
@@ -506,8 +508,8 @@ CherrygroveYoungsterText_NoPokedex:
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
+	text "I debated the"
+	line "teachers on the"
 	cont "road."
 
 	para "My #MON lost."
@@ -536,8 +538,8 @@ MysticWaterGuyTextAfter:
 CherrygroveCitySignText:
 	text "CHERRYGROVE CITY"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "The City of One"
+	line "Hundred Books"
 	done
 
 GuideGentsHouseSignText:

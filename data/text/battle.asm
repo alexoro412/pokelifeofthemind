@@ -19,7 +19,7 @@ HookedPokemonAttackedText:
 	line "@"
 	text_ram wEnemyMonNickname
 	text_start
-	cont "attacked!"
+	cont "wants to talk!"
 	prompt
 
 PokemonFellFromTreeText:
@@ -32,19 +32,19 @@ WildCelebiAppearedText:
 	text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "appeared!"
+	line "wants to talk!"
 	prompt
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "wants to battle!"
+	line "wants to debate!"
 	prompt
 
 BattleText_WildFled:
 	text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fled!"
+	line "gave up on you!"
 	prompt
 
 BattleText_EnemyFled:
@@ -56,7 +56,8 @@ BattleText_EnemyFled:
 
 HurtByPoisonText:
 	text "<USER>"
-	line "is hurt by poison!"
+	line "is having some"
+    cont "bad ideas!"
 	prompt
 
 HurtByBurnText:
@@ -160,10 +161,13 @@ BattleText_TheSandstormSubsided:
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+    text "You were very"
+    line "persuasive!"
+	para "Enemy @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fainted!"
+	line "was convinced"
+    cont "and gave up!"
 	prompt
 
 GotMoneyForWinningText:
@@ -175,7 +179,7 @@ GotMoneyForWinningText:
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "was defeated!"
+	line "was outsmarted!"
 	prompt
 
 TiedAgainstText:
@@ -208,7 +212,9 @@ UnusedRivalLossText: ; unreferenced
 BattleText_MonFainted:
 	text_ram wBattleMonNickname
 	text_start
-	line "fainted!"
+	line "was convinced "
+    para "by the enemy, and"
+    line "went on strike!"
 	prompt
 
 BattleText_UseNextMon:
@@ -572,22 +578,24 @@ WentToSleepText:
 RestedText:
 	text "<USER>"
 	line "fell asleep and"
-	cont "became healthy!"
+	para "forget your"
+    line "arguments!"
 	done
 
 RegainedHealthText:
 	text "<USER>"
-	line "regained health!"
+	line "cleared its"
+    cont "head!"
 	prompt
 
 AttackMissedText:
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "stuttered!"
 	prompt
 
 AttackMissed2Text:
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "stuttered!"
 	prompt
 
 CrashedText:
@@ -598,7 +606,7 @@ CrashedText:
 
 UnaffectedText:
 	text "<TARGET>'s"
-	line "unaffected!"
+	line "unconvinced!"
 	prompt
 
 DoesntAffectText:
@@ -607,21 +615,22 @@ DoesntAffectText:
 	prompt
 
 CriticalHitText:
-	text "A critical hit!"
+	text "Very well phrased!"
 	prompt
 
 OneHitKOText:
-	text "It's a one-hit KO!"
+	text "It's a one-line"
+    line "debate!"
 	prompt
 
 SuperEffectiveText:
 	text "It's super-"
-	line "effective!"
+	line "convincing!"
 	prompt
 
 NotVeryEffectiveText:
 	text "It's not very"
-	line "effective…"
+	line "convincing…"
 	prompt
 
 TookDownWithItText:
@@ -691,7 +700,8 @@ AlreadyAsleepText:
 
 WasPoisonedText:
 	text "<TARGET>"
-	line "was poisoned!"
+	line "had an idea"
+    cont "implanted!"
 	prompt
 
 BadlyPoisonedText:
@@ -705,7 +715,7 @@ AlreadyPoisonedText:
 	prompt
 
 SuckedHealthText:
-	text "Sucked health from"
+	text "Melded minds with"
 	line "<TARGET>!"
 	prompt
 

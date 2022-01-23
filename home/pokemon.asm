@@ -24,7 +24,7 @@ DrawBattleHPBar::
 	push bc
 
 ; Place 'HP:'
-	ld a, $60
+	ld a, $0
 	ld [hli], a
 	ld a, $61
 	ld [hli], a

@@ -262,9 +262,9 @@ NewBarkTownRivalText2:
 NewBarkTownSignText:
 	text "NEW BARK TOWN"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "Birthplace of "
+	line "famed scholar:"
+	cont "GARAM CHOMSKY"
 	done
 
 NewBarkTownPlayersHouseSignText:

@@ -93,14 +93,22 @@ ComputeHPBarPixels:
 	call Divide
 	ldh a, [hQuotient + 3]
 	ld e, a
+    ld b, a
+;; ALEX: I added this part
+    ld a, 48
+    sub e
+    ld e, a
+;; 
+    ld a, b
 	pop hl
 	and a
 	ret nz
-	ld e, 1
+	ld e, 48
 	ret
 
 .zero
-	ld e, 0
+    ld e, 48
+;	ld e, 0
 	ret
 
 AnimateHPBar:

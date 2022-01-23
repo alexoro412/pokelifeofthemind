@@ -26,10 +26,10 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
 	text "#MON gain expe-"
-	line "rience in battle"
+	line "rience in debate"
 
-	para "and change their"
-	line "form."
+	para "and ascend to"
+	line "higher forms."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:

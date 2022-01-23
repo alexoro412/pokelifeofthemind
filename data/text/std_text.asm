@@ -50,12 +50,13 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
-	text "We can heal your"
-	line "#MON to perfect"
-	cont "health."
+	text "We can "
+    line "reindoctrinate"
+	para "#MON back to a"
+	line "loyal mental state"
 
-	para "Shall we heal your"
-	line "#MON?"
+	para "Shall we attend to"
+	line "your #MON?"
 	done
 
 NurseTakePokemonText:
@@ -68,7 +69,8 @@ NurseReturnPokemonText:
 	line "waiting."
 
 	para "Your #MON are"
-	line "fully healed."
+	line "well-behaved "
+    cont "yet again."
 	done
 
 NurseGoodbyeText:

@@ -302,13 +302,13 @@ _CantUseItemText::
 
 _UseCutText::
 	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text " made"
+	line "incisive remarks!"
 	prompt
 
 _CutNothingText::
 	text "There's nothing to"
-	line "CUT here."
+	line "debate here."
 	prompt
 
 _BlindingFlashText::
@@ -321,8 +321,8 @@ _BlindingFlashText::
 
 _UsedSurfText::
 	text_ram wStringBuffer2
-	text " used"
-	line "SURF!"
+	line "became one with"
+	line "the water!"
 	done
 
 _CantSurfText::
@@ -332,18 +332,18 @@ _CantSurfText::
 
 _AlreadySurfingText::
 	text "You're already"
-	line "SURFING."
+	line "on the water."
 	prompt
 
 _AskSurfText::
 	text "The water is calm."
-	line "Want to SURF?"
+	line "Want to swim?"
 	done
 
 _UseWaterfallText::
 	text_ram wStringBuffer2
-	text " used"
-	line "WATERFALL!"
+	text " made a deal"
+	line "with the waterfall"
 	done
 
 _HugeWaterfallText::
@@ -512,15 +512,18 @@ _GotOffBikeText::
 	done
 
 _AskCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "This tree could"
+	line "be convinced to"
+    cont "disappear."
 
-	para "Want to use CUT?"
+	para "Want to contend"
+    line "its existence?"
 	done
 
 _CanCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "This tree could"
+	line "be convinced to"
+    cont "disappear."
 	done
 
 _FoundItemText::
@@ -538,10 +541,16 @@ _CantCarryItemText::
 
 _WhitedOutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "willing #MON!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "Without anyone to"
+	line "defend your side,"
+    para "there's no point"
+    line "in being out here."
+    para "<PLAYER> went"
+    line "back to reinstill"
+    para "loyalty into"
+    line "their #MON!"
 	done
 
 _ItemfinderItemNearbyText::
@@ -558,12 +567,12 @@ _ItemfinderNopeText::
 _PoisonFaintText::
 	text_ram wStringBuffer3
 	text_start
-	line "fainted!"
+	line "got too high!"
 	prompt
 
 _PoisonWhiteoutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "willing #MON!"
 
 	para "<PLAYER> whited"
 	line "out!"
@@ -739,12 +748,12 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @"
+	line "tried @"
 	text_end
 
 _UsedMove2Text::
 	text_start
-	line "used @"
+	line "tried @"
 	text_end
 
 _UsedInsteadText::
@@ -1532,14 +1541,14 @@ _OakText1::
 
 	para "My name is OAK."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "I have a PhD in"
+	line "#MON studies."
 	prompt
 
 _OakText2::
 	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
+	line "habited by beings"
+	cont "that we call"
 	cont "#MON.@"
 	text_end
 
@@ -1550,15 +1559,19 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+    text "In order to find"
+    line "a more civilized"
+    cont "way to handle "
+    cont "human conflict,"
+	cont "we have turned"
+	cont "to #MON as"
+    cont "intermediaries."
 
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+    para "They have large"
+	line "mental capacity,"
+    cont "and can be used"
+    cont "to win arguments"
+    cont "big and small."
 	prompt
 
 _OakText5::
@@ -1567,8 +1580,8 @@ _OakText5::
 	cont "#MON yet."
 
 	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	line "many questions to"
+	cont "answer."
 
 	para "That's why I study"
 	line "#MON every day."

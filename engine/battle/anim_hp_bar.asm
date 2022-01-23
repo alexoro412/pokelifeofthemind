@@ -100,17 +100,17 @@ _AnimateHPBar:
 	ld d, a
 	jr c, .negative
 	ld a, [wCurHPAnimOldHP]
-	ld [wCurHPAnimLowHP], a
-	ld a, [wCurHPAnimNewHP]
 	ld [wCurHPAnimHighHP], a
-	ld bc, 1
+	ld a, [wCurHPAnimNewHP]
+	ld [wCurHPAnimLowHP], a
+	ld bc, -1 ; CHANGED
 	jr .got_direction
 
 .negative
 	ld a, [wCurHPAnimOldHP]
-	ld [wCurHPAnimHighHP], a
-	ld a, [wCurHPAnimNewHP]
 	ld [wCurHPAnimLowHP], a
+	ld a, [wCurHPAnimNewHP]
+	ld [wCurHPAnimHighHP], a
 	ld a, e
 	xor $ff
 	inc a
@@ -118,7 +118,7 @@ _AnimateHPBar:
 	ld a, d
 	xor $ff
 	ld d, a
-	ld bc, -1
+	ld bc, 1 ; CHANGED
 .got_direction
 	ld a, d
 	ld [wCurHPAnimDeltaHP], a
@@ -184,11 +184,11 @@ LongAnim_UpdateVariables:
 	; used. The game then proceeds as though it never deleted that output.
 	; To fix, uncomment the line below.
 	call ComputeHPBarPixels
-	; ld a, e
+	ld a, e ; ALEX I uncommented this
 	pop bc
 	pop de
 	pop hl
-	ld a, e ; Comment or delete this line to fix the above bug.
+;	ld a, e ; Comment or delete this line to fix the above bug.
 	ld hl, wCurHPBarPixels
 	cp [hl]
 	jr z, .loop
@@ -272,7 +272,7 @@ HPBarAnim_UpdateHPRemaining:
 	ld [wStringBuffer2], a
 	ld de, wStringBuffer2
 	lb bc, 2, 3
-	call PrintNum
+	; call PrintNum
 	pop hl
 	ret
 

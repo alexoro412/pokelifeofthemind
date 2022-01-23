@@ -181,7 +181,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	text "Hello!"
 	line "You are trainer?"
 
-	para "Battle GYM LEADER,"
+	para "Battle DEAN,"
 	line "win you did?"
 	done
 
@@ -203,39 +203,39 @@ Text_HereTeacherIAm:
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
+	text "ENTPs are rumored"
 	line "to appear in"
 	cont "SPROUT TOWER."
 
-	para "They said normal-"
+	para "They said ISFJ-"
 	line "type #MON moves"
 
 	para "had no effect on"
-	line "ghosts."
+	line "ENTPs."
 	done
 
 VioletCitySuperNerdText:
 	text "Hey, you're a"
-	line "#MON trainer?"
+	line "#MON teacher?"
 
 	para "If you beat the"
-	line "GYM LEADER here,"
+	line "DEAN here,"
 
 	para "you'll be ready"
 	line "for prime time!"
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
+	text "BOYER, from the"
 	line "VIOLET #MON"
 
-	para "GYM, is a fine"
-	line "trainer!"
+	para "COLLEGE, is a "
+	line "fine DEAN!"
 
 	para "He inherited his"
-	line "father's gym and"
+	line "father's college"
 
-	para "has done a great"
+	para "He's done a good"
 	line "job with it."
 	done
 
@@ -252,16 +252,17 @@ VioletCitySignText:
 	text "VIOLET CITY"
 
 	para "The City of"
-	line "Nostalgic Scents"
+	line "Well-founded"
+    cont "Statements"
 	done
 
 VioletGymSignText:
 	text "VIOLET CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	line "#MON COLLEGE"
+	cont "DEAN: BOYER"
 
 	para "The Elegant Master"
-	line "of Flying #MON"
+	line "of ISTP #MON"
 	done
 
 SproutTowerSignText:

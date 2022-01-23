@@ -55,24 +55,82 @@ DrawHP:
 	pop hl
 	push de
 	push hl
+
 	push hl
 	call DrawBattleHPBar
 	pop hl
 
 ; Print HP
-	bccoord 1, 1, 0
-	add hl, bc
-	ld de, wTempMonHP
-	ld a, [wMonType]
-	cp BOXMON
-	jr nz, .not_boxmon_2
-	ld de, wTempMonMaxHP
+	; bccoord 1, 1, 0
+	; add hl, bc
+	; ld de, wTempMonHP
+	; ld a, [wMonType]
+	; cp BOXMON
+	; jr nz, .not_boxmon_2
+	; ld de, wTempMonMaxHP
 .not_boxmon_2
-	lb bc, 2, 3
-	call PrintNum
+    push hl
 
-	ld a, "/"
-	ld [hli], a
+    ; First, copy in their current MAX HP
+    ld hl, wTempMonMaxHP
+    ld a, [hli] ; TODO why does hli not work here????????/
+    ld [wHPBuffer1+1], a
+    ld a, [hl]
+    ld [wHPBuffer1], a
+
+    ; Then, load HP
+    ld hl, wTempMonHP
+    ld a, [hli]
+    ld c, a
+    ld a, [hl]
+    ld b, a
+    ; copied from engine/battle/core.asm:SubtractHP
+    
+    ld hl, wHPBuffer1
+    ; Try max - current. stores in buffer 1
+    inc hl
+    ld a, [hl]
+    ld [wHPBuffer2], a
+    sub c
+    ld [hld], a
+    ld a, [hl]
+    ld [wHPBuffer2 + 1], a
+    sbc b
+    ld [hl], a
+    ; ret nc 
+    
+    ld a, [wHPBuffer1]
+    ld e, a
+    ld a, [wHPBuffer1+1]
+    ld [wHPBuffer1], a
+    ld a, e
+    ld [wHPBuffer1+1], a
+
+    pop hl
+
+    bccoord 1, 1, 0
+    add hl, bc
+    lb bc, 2, 3
+    ld de, wHPBuffer1
+    call PrintNum
+;    ld a, [wBattleMonType1]
+;    ld b, a
+;    hlcoord 9, 10
+;    call PrintType
+;
+;    ld a, [wBattleMonType2]
+;    cp a, b
+;    jr nz, .one_type
+;    hlcoord 13, 10
+;	ld a, "/"
+;	ld [hli], a
+;    ld a, [wBattleMonType2]
+;    ld b, a
+;    call PrintType
+
+
+    ld a, "/"
+    ld [hli], a
 
 ; Print max HP
 	ld de, wTempMonMaxHP
@@ -80,6 +138,7 @@ DrawHP:
 	call PrintNum
 	pop hl
 	pop de
+    xor a
 	ret
 
 PrintTempMonStats:
@@ -114,11 +173,11 @@ PrintTempMonStats:
 	ret
 
 .StatNames:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
+	db   "PERSUADE"
+	next "THIKSKIN"
+	next "INTEL."
+	next "EXCUSE"
+	next "WIT"
 	next "@"
 
 GetGender:
@@ -429,8 +488,8 @@ PlaceNonFaintStatus:
 	ret
 
 SlpString: db "SLP@"
-PsnString: db "PSN@"
-BrnString: db "BRN@"
+PsnString: db "INC@"
+BrnString: db "DIS@"
 FrzString: db "FRZ@"
 ParString: db "PAR@"
 

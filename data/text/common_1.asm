@@ -1112,7 +1112,7 @@ _EnemyWithdrewText::
 
 _EnemyUsedOnText::
 	text "<ENEMY>"
-	line "used @"
+	line "tried @"
 	text_ram wMonOrItemNameBuffer
 	text_start
 	cont "on @"

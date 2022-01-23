@@ -263,13 +263,21 @@ Route30_MikeysRattataAttacksMovement:
 Text_UseTackle:
 	text "Go, RATTATA!"
 
-	para "TACKLE!"
+	para "PAT!"
 	done
 
 Text_ThisIsABigBattle:
 	text "What? This is a"
-	line "big battle!"
+	line "serious debate!"
 	cont "Leave me alone!"
+
+    para "I mean it's not"
+    line "we're placed to"
+    cont "stop you from"
+    cont "progressing."
+
+    para "Now go see"
+    line "Mr.#MON!"
 	done
 
 YoungsterJoey1SeenText:
@@ -278,21 +286,21 @@ YoungsterJoey1SeenText:
 	cont "more #MON."
 
 	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	line "dumb! Come on,"
+	cont "let's debate!"
 	done
 
 YoungsterJoey1BeatenText:
 	text "Ack! I lost again!"
-	line "Doggone it!"
+	line "Dagnabbit!"
 	done
 
 YoungsterJoey1AfterText:
 	text "Do I have to have"
 	line "more #MON in"
 
-	para "order to battle"
-	line "better?"
+	para "order to form"
+	line "better arguments?"
 
 	para "No! I'm sticking"
 	line "with this one no"
@@ -301,10 +309,11 @@ YoungsterJoey1AfterText:
 
 YoungsterMikeySeenText:
 	text "You're a #MON"
-	line "trainer, right?"
+	line "teacher, right?"
 
 	para "Then you have to"
-	line "battle!"
+	line "enage in rational"
+    cont "discourse"
 	done
 
 YoungsterMikeyBeatenText:
@@ -314,23 +323,23 @@ YoungsterMikeyBeatenText:
 
 YoungsterMikeyAfterText:
 	text "Becoming a good"
-	line "trainer is really"
+	line "teacher is really"
 	cont "tough."
 
-	para "I'm going to bat-"
-	line "tle other people"
+	para "I'm going to deb-"
+	line "ate other people"
 	cont "to get better."
 	done
 
 BugCatcherDonSeenText:
 	text "Instead of a bug"
 	line "#MON, I found"
-	cont "a trainer!"
+	cont "a teacher!"
 	done
 
 BugCatcherDonBeatenText:
 	text "Argh! You're too"
-	line "strong!"
+	line "smart!"
 	done
 
 BugCatcherDonAfterText:
@@ -350,16 +359,16 @@ Route30YoungsterText_DirectionsToMrPokemonsHouse:
 
 Route30YoungsterText_EveryoneIsBattling:
 	text "Everyone's having"
-	line "fun battling!"
+	line "fun arguing!"
 	cont "You should too!"
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "I'm not a teacher."
 
 	para "But if you look"
 	line "one in the eyes,"
-	cont "prepare to battle."
+	cont "prepare to argue."
 	done
 
 Route30SignText:
@@ -379,7 +388,7 @@ MrPokemonsHouseSignText:
 	done
 
 Route30TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TEACHER TIPS"
 
 	para "No stealing other"
 	line "people's #MON!"

@@ -1,10 +1,10 @@
 	db "OWL@" ; species name
 	dw 204, 470 ; height, weight
 
-	db   "It begins to hoot"
-	next "at the same time"
-	next "every day. Some"
+	db   "It repeats the "
+	next "same point every"
+	next "day at midnight."
 
-	page "trainers use them"
-	next "in place of"
-	next "clocks.@"
+	page "many people use"
+	next "them in place of"
+	next "clocks. @"

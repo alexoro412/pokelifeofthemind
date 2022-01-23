@@ -23,11 +23,11 @@ VioletMartCooltrainerMScript:
 VioletMartGrannyText:
 	text "When you first"
 	line "catch a #MON,"
-	cont "it may be weak."
+	cont "it may be dumb."
 
 	para "But it will even-"
 	line "tually grow to be"
-	cont "strong."
+	cont "well educated."
 
 	para "It's important to"
 	line "treat #MON with"
@@ -36,8 +36,8 @@ VioletMartGrannyText:
 
 VioletMartCooltrainerMText:
 	text "#MON can hold"
-	line "items like POTION"
-	cont "and ANTIDOTE."
+	line "items like BEER"
+	cont "and DECEPT."
 
 	para "But they don't"
 	line "appear to know how"

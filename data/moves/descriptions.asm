@@ -268,8 +268,8 @@ Move00Description:
 	db "?@"
 
 PoundDescription:
-	db   "Pounds with fore-"
-	next "legs or tail.@"
+	db   "Make a basic"
+	next "argument.@"
 
 KarateChopDescription:
 	db   "Has a high criti-"
@@ -304,8 +304,8 @@ ThunderpunchDescription:
 	next "It may paralyze.@"
 
 ScratchDescription:
-	db   "Scratches with"
-	next "sharp claws.@"
+	db   "Make a basic"
+	next "argument.@"
 
 VicegripDescription:
 	db   "Grips with power-"
@@ -320,12 +320,12 @@ RazorWindDescription:
 	next "2nd turn: Attack@"
 
 SwordsDanceDescription:
-	db   "A dance that in-"
-	next "creases ATTACK.@"
+	db   "Focus on what "
+	next "comes next.@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "Contend the last"
+	next "point.@"
 
 GustDescription:
 	db   "Whips up a strong"
@@ -340,8 +340,8 @@ WhirlwindDescription:
 	next "& ends battle.@"
 
 FlyDescription:
-	db   "1st turn: Fly"
-	next "2nd turn: Attack@"
+	db   "1st turn: Plan"
+	next "2nd turn: Argue@"
 
 BindDescription:
 	db   "Binds the target"
@@ -396,12 +396,12 @@ HornDrillDescription:
 	next "drill attack.@"
 
 TackleDescription:
-	db   "A full-body charge"
-	next "attack.@"
+	db   "Make a basic"
+	next "argument.@"
 
 BodySlamDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "A more thoughtful"
+	next "discussion.@"
 
 WrapDescription:
 	db   "Squeezes the foe"
@@ -420,12 +420,12 @@ DoubleEdgeDescription:
 	next "hurts the user.@"
 
 TailWhipDescription:
-	db   "Lowers the foe's"
-	next "DEFENSE.@"
+	db   "Seduce the foe."
+	next "Lowers THIKSKIN.@"
 
 PoisonStingDescription:
-	db   "An attack that may"
-	next "poison the target.@"
+	db   "Plants a slow-"
+	next "growing idea.@"
 
 TwineedleDescription:
 	db   "Jabs the foe twice"
@@ -436,20 +436,20 @@ PinMissileDescription:
 	next "strike 2-5 times.@"
 
 LeerDescription:
-	db   "Reduces the foe's"
-	next "DEFENSE.@"
+	db   "Give the foe a"
+	next "stern look.@"
 
 BiteDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
 GrowlDescription:
-	db   "Reduces the foe's"
-	next "ATTACK.@"
+	db   "Wink at the foe."
+	next "Lowers PERSUADE.@"
 
 RoarDescription:
-	db   "Scares wild foes"
-	next "to end battle.@"
+	db   "The enemy may "
+	next "lose interest.@"
 
 SingDescription:
 	db   "May cause the foe"
@@ -472,8 +472,8 @@ AcidDescription:
 	next "lower DEFENSE.@"
 
 EmberDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Diss the foe."
+	next "May persist.@"
 
 FlamethrowerDescription:
 	db   "An attack that may"
@@ -556,8 +556,8 @@ MegaDrainDescription:
 	next "damage inflicted.@"
 
 LeechSeedDescription:
-	db   "Steals HP from the"
-	next "foe on every turn.@"
+	db   "Create a lasting"
+	next "link w/ the foe.@"
 
 GrowthDescription:
 	db   "Raises the SPCL."
@@ -588,8 +588,8 @@ PetalDanceDescription:
 	next "and confuses user.@"
 
 StringShotDescription:
-	db   "A move that lowers"
-	next "the foe's SPEED.@"
+	db   "Interrupt the foe."
+	next "Lowers their WIT.@"
 
 DragonRageDescription:
 	db   "Always inflicts"
@@ -628,15 +628,15 @@ FissureDescription:
 	next "one-hit KO attack.@"
 
 DigDescription:
-	db   "1st turn: Burrow"
-	next "2nd turn: Attack@"
+	db   "1st turn: Scheme"
+	next "2nd turn: Engage@"
 
 ToxicDescription:
 	db   "A poison move with"
 	next "increasing damage.@"
 
 ConfusionDescription:
-	db   "An attack that may"
+	db   "A point that may"
 	next "cause confusion.@"
 
 PsychicMDescription:
@@ -676,8 +676,8 @@ MimicDescription:
 	next "by the foe.@"
 
 ScreechDescription:
-	db   "Sharply reduces"
-	next "the foe's DEFENSE.@"
+	db   "Very impolite of"
+	next "you to do so.@"
 
 DoubleTeamDescription:
 	db   "Heightens evasive-"
@@ -689,7 +689,7 @@ RecoverDescription:
 
 HardenDescription:
 	db   "Raises the user's"
-	next "DEFENSE.@"
+	next "THIKSKIN.@"
 
 MinimizeDescription:
 	db   "Heightens evasive-"
@@ -828,8 +828,8 @@ BarrageDescription:
 	next "2-5 times.@"
 
 LeechLifeDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Forces knowledge"
+	next "onto the foe.@"
 
 LovelyKissDescription:
 	db   "May cause the foe"
@@ -844,8 +844,8 @@ TransformDescription:
 	next "the foe's guise.@"
 
 BubbleDescription:
-	db   "An attack that may"
-	next "reduce SPEED.@"
+	db   "Explain multiple"
+	next "viewpoints.@"
 
 DizzyPunchDescription:
 	db   "An attack that may"

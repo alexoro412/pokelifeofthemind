@@ -335,11 +335,11 @@ PrintParty_IDNoString:
 	db "<ID>№.@"
 
 PrintParty_StatsString:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
+	db   "PERSUADE"
+	next "THIKSKIN"
+	next "INTEL."
+	next "EXCUSE"
+	next "WIT"
 	db   "@"
 
 PrintParty_NoMoveString:

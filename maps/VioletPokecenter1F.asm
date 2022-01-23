@@ -203,11 +203,11 @@ VioletPokecenter1FYoungsterText:
 	text "#MON are smart."
 	line "They won't obey a"
 
-	para "trainer they don't"
+	para "teacher they don't"
 	line "respect."
 
 	para "Without the right"
-	line "GYM BADGES, they"
+	line "DEGREES, they"
 
 	para "will just do as"
 	line "they please."

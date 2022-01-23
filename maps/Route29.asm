@@ -270,9 +270,10 @@ CatchingTutorialDebriefText:
 	text "That's how you do"
 	line "it."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "If you argue with"
+	line "them first,"
+    para "#MON are"
+	line "easier to catch."
 	done
 
 CatchingTutorialDeclinedText:
@@ -295,10 +296,10 @@ Route29YoungsterText:
 	text "Yo. How are your"
 	line "#MON?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "If they're unruly"
+	line "and not ready to"
 
-	para "battle, keep out"
+	para "debate, keep out"
 	line "of the grass."
 	done
 
@@ -374,7 +375,7 @@ TuscanyGaveGiftText:
 	cont "is most adorable?"
 
 	para "It strengthens"
-	line "normal-type moves."
+	line "ISFJ-type moves."
 
 	para "I am certain it"
 	line "will be of use."

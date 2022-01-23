@@ -111,16 +111,16 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "I'm BOYER, the"
+	line "VIOLET #MON"
+	cont "COLLEGE DEAN!"
 
 	para "People say you can"
-	line "clip flying-type"
+	line "clip ISTP-type"
 
 	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	line "with ESTJ"
+	cont "arguments…"
 
 	para "I won't allow such"
 	line "insults to bird"
@@ -143,17 +143,17 @@ FalknerWinLossText:
 
 	para "It's the official"
 	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	cont "ZEPHYR DEGREE."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	line "ZEPHYR DEGREE."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
+	text "ZEPHYR DEGREE"
+	line "raises PERSUADE"
 	cont "power of #MON."
 
 	para "It also enables"
@@ -193,14 +193,14 @@ FalknerTMMudSlapText:
 
 FalknerFightDoneText:
 	text "There are #MON"
-	line "GYMS in cities and"
-	cont "towns ahead."
+	line "COLLEGES in cities"
+	cont "and towns ahead."
 
 	para "You should test"
 	line "your skills at"
-	cont "these GYMS."
+	cont "these COLLEGES."
 
-	para "I'm going to train"
+	para "I'm going to study"
 	line "harder to become"
 
 	para "the greatest bird"
@@ -225,7 +225,7 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
+	text "BOYER's smarts"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -236,7 +236,7 @@ BirdKeeperRodAfterBattleText:
 BirdKeeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face FALKNER!"
+	cont "face BOYER!"
 	done
 
 BirdKeeperAbeBeatenText:
@@ -247,27 +247,27 @@ BirdKeeperAbeBeatenText:
 BirdKeeperAbeAfterBattleText:
 	text "This is pathetic,"
 	line "losing to some"
-	cont "rookie trainer…"
+	cont "rookie teacher…"
 	done
 
 VioletGymGuideText:
-	text "Hey! I'm no train-"
+	text "Hey! I'm no teach-"
 	line "er but I can give"
 	cont "some advice!"
 
 	para "Believe me!"
 	line "If you believe, a"
 
-	para "championship dream"
+	para "doctorate dream"
 	line "can come true."
 
 	para "You believe?"
 	line "Then listen."
 
-	para "The grass-type is"
+	para "The INFJ is"
 	line "weak against the"
 
-	para "flying-type. Keep"
+	para "ISTP-type. Keep"
 	line "this in mind."
 	done
 
@@ -275,7 +275,7 @@ VioletGymGuideWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
 
-	para "be the CHAMP in no"
+	para "be the PhD in no"
 	line "time at all!"
 	done
 

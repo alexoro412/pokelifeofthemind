@@ -276,7 +276,7 @@ Route31CooltrainerMText:
 BugCatcherWade1SeenText:
 	text "I caught a bunch"
 	line "of #MON. Let me"
-	cont "battle with you!"
+	cont "argue with you!"
 	done
 
 BugCatcherWade1BeatenText:
@@ -316,13 +316,13 @@ Text_Route31SleepyManGotMail:
 	text "…Zzzz… Huh?"
 
 	para "What's that? You"
-	line "have MAIL for me?"
+	line "have NOTES for me?"
 	done
 
 Text_Route31HandOverMailMon:
 	text "<PLAYER> handed"
 	line "over the #MON"
-	cont "holding the MAIL."
+	cont "holding the NOTES."
 	done
 
 Text_Route31ReadingMail:
@@ -366,7 +366,7 @@ Text_Route31DescribeNightmare:
 	done
 
 Text_Route31WrongMail:
-	text "This MAIL isn't"
+	text "This NOTES isn't"
 	line "for me."
 	done
 
@@ -375,7 +375,7 @@ Text_Route31MissingMail:
 	line "MON so special?"
 
 	para "It doesn't have"
-	line "any MAIL."
+	line "any NOTES."
 	done
 
 Text_Route31DeclinedToHandOverMail:
@@ -401,7 +401,8 @@ Route31YoungsterText:
 	cont "FALKNER."
 
 	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	line "VIOLET CITY's"
+    cont "COLLEGE"
 	done
 
 Route31SignText:

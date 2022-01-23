@@ -58,15 +58,16 @@ CherrygroveMartYoungsterText:
 	text "When I was walking"
 	line "in the grass, a"
 
-	para "bug #MON poi-"
-	line "soned my #MON!"
+	para "bug #MON inc-"
+	line "epted my #MON!"
 
 	para "I just kept going,"
 	line "but then my"
-	cont "#MON fainted."
+	cont "#MON went on"
+    cont "strike!"
 
 	para "You should keep an"
-	line "ANTIDOTE with you."
+	line "DECEPT with you."
 	done
 
 CherrygroveMart_MapEvents:

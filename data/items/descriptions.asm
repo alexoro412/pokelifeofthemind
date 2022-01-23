@@ -291,8 +291,8 @@ MoonStoneDesc:
 	next "kinds of #MON.@"
 
 AntidoteDesc:
-	db   "Cures poisoned"
-	next "#MON.@"
+	db   "Removes slow-"
+	next "growing ideas.@"
 
 BurnHealDesc:
 	db   "Heals burned"
@@ -315,20 +315,20 @@ FullRestoreDesc:
 	next "& status.@"
 
 MaxPotionDesc:
-	db   "Fully restores"
-	next "#MON HP.@"
+	db   "Fully reinstill"
+	next "#MON loyalty.@"
 
 HyperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 200.@"
+	db   "Forgets #MON"
+	next "P by 200.@"
 
 SuperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Forgets #MON"
+	next "P by 50.@"
 
 PotionDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Forgets #MON"
+	next "P by 20.@"
 
 EscapeRopeDesc:
 	db   "Use for escaping"
@@ -921,7 +921,7 @@ UpGradeDesc:
 
 BerryDesc:
 	db   "A self-restore"
-	next "item. (10HP, HOLD)@"
+	next "item. (-10P, HOLD)@"
 
 GoldBerryDesc:
 	db   "A self-restore"

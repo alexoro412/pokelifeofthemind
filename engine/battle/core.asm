@@ -4629,16 +4629,16 @@ CheckDanger:
 	jr nz, .done
 	ld a, [wPlayerHPPal]
 	cp HP_RED
-	jr z, .danger
-
+;	jr z, .danger
+;
 .no_danger
 	ld hl, wLowHealthAlarm
 	res DANGER_ON_F, [hl]
-	jr .done
+;	jr .done
 
-.danger
-	ld hl, wLowHealthAlarm
-	set DANGER_ON_F, [hl]
+;.danger
+;	ld hl, wLowHealthAlarm
+;	set DANGER_ON_F, [hl]
 
 .done
 	ret
@@ -4845,6 +4845,11 @@ DrawEnemyHUD:
 	ld [wWhichHPBar], a
 	hlcoord 2, 2
 	ld b, 0
+
+    ld a, 48
+    sub e
+    ld e, a
+
 	call DrawBattleHPBar
 	ret
 

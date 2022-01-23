@@ -9,6 +9,7 @@ CheckBattleScene:
 
 	ld a, [wOptions]
 	bit BATTLE_SCENE, a
+    jr .off ; Disable animations permanently, ALEX
 	jr nz, .off
 
 	and a

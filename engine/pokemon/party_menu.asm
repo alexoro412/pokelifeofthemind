@@ -202,14 +202,16 @@ PlacePartyMenuHPDigits:
 	pop hl
 	push de
 	lb bc, 2, 3
-	call PrintNum
+    ; TODO replace this with health swapped,
+    ; Or with Type info
+	; call PrintNum
 	pop de
-	ld a, "/"
-	ld [hli], a
+	; ld a, "/"
+	; ld [hli], a
 	inc de
 	inc de
 	lb bc, 2, 3
-	call PrintNum
+	; call PrintNum
 
 .next
 	pop hl

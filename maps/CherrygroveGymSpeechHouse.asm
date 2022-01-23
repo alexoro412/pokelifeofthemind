@@ -21,25 +21,25 @@ CherrygroveGymSpeechHousePokefanMText:
 	line "see how good you"
 
 	para "are as a #MON"
-	line "trainer?"
+	line "teacher?"
 
 	para "You better visit"
-	line "the #MON GYMS"
+	line "the COLLEGES"
 
 	para "all over JOHTO and"
-	line "collect BADGES."
+	line "collect DEGREES."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
 	text "When I get older,"
 	line "I'm going to be a"
-	cont "GYM LEADER!"
+	cont "DEAN!"
 
 	para "I make my #MON"
-	line "battle with my"
+	line "debate with my"
 
-	para "friend's to make"
-	line "them tougher!"
+	para "friends to make"
+	line "them smarter!"
 	done
 
 CherrygroveGymSpeechHouse_MapEvents:
