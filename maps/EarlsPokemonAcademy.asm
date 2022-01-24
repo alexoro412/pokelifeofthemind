@@ -114,11 +114,11 @@ AcademyBlackboard:
 	dbw BANK(@), NULL
 
 .Text:
-	db "PSN@"
-	db "PAR@"
+	db "INC@"
+	db "EMB@"
 	db "SLP@"
-	db "BRN@"
-	db "FRZ@"
+	db "DIS@"
+	db "SFT@"
 	db "QUIT@"
 
 AcademyNotebook:
@@ -168,23 +168,22 @@ AcademyEarlIntroText:
 
 	para "Teach you I will"
 	line "to be a better"
-	cont "trainer!"
+	cont "teacher!"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "What do you want"
+	line "to know?"
 	done
 
 AcademyEarlTeachHowToWinText:
 	text "Good! Teach you,"
 	line "I will!"
 
-	para "In battle, #MON"
-	line "top on list jump"
-	cont "out first!"
+	para "In debate, #MON"
+	line "top on list speak"
+	cont "first!"
 
 	para "Change order in"
-	line "list, make battle"
+	line "list, make debate"
 	cont "easy, maybe!"
 
 	para "More from me you"
@@ -193,7 +192,7 @@ AcademyEarlTeachHowToWinText:
 
 AcademyEarlTeachMoreText:
 	text "So, want to know"
-	line "how to raise"
+	line "how to teach"
 	cont "#MON well?"
 	done
 
@@ -202,19 +201,20 @@ AcademyEarlTeachHowToRaiseWellText:
 	line "I will!"
 
 	para "If #MON come"
-	line "out in battle even"
+	line "out in debate even"
 
 	para "briefly, some EXP."
 	line "Points it gets."
 
 	para "At top of list put"
-	line "weak #MON."
+	line "uneducated"
+    cont "#MON."
 
-	para "Switch in battle"
+	para "Switch in debate"
 	line "quick!"
 
-	para "This way, weak"
-	line "#MON strong"
+	para "This way, dumb"
+	line "#MON smart"
 	cont "become!"
 	done
 
@@ -251,8 +251,8 @@ EarlsPokemonAcademyGameboyKid2Text:
 
 EarlsPokemonAcademyYoungster2Text:
 	text "A #MON holding"
-	line "a BERRY will heal"
-	cont "itself in battle."
+	line "a SNACK will feed"
+	cont "itself in debate."
 
 	para "Many other items"
 	line "can be held by"
@@ -275,67 +275,72 @@ AcademyBlackboardText2: ; unreferenced
 	done
 
 AcademyPoisonText:
-	text "If poisoned, a"
+	text "If incepted, a"
 	line "#MON steadily"
-	cont "loses HP."
+	cont "gets persuaded."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "The idea lingers"
+	line "after the debate,"
 
-	para "and HP is lost as"
-	line "you walk."
+	para "and P increases"
+	line "as you walk."
 
-	para "To cure it, use an"
-	line "ANTIDOTE."
+	para "To fix it, use a"
+	line "DECEPT."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
-	line "speed and may"
+	text "Embarassment "
+	line "reduces WIT and"
 	cont "prevent movement."
 
 	para "It remains after"
 	line "battle, so use"
-	cont "a PARLYZ HEAL."
+	cont "a CONF.BOOST."
 	done
 
 AcademySleepText:
 	text "If asleep, your"
 	line "#MON can't make"
-	cont "a move."
+	cont "any arguments."
 
 	para "A sleeping #MON"
-	line "doesn't wake up"
-	cont "after battle."
+	line "can't wake up"
+	cont "on its own."
 
 	para "Wake it up with"
 	line "an AWAKENING."
 	done
 
 AcademyBurnText:
-	text "A burn steadily"
-	line "consumes HP."
+	text "A dis lingers"
+	line "in the mind,"
+
+    para "and P slowly"
+    line "grows with it"
 
 	para "It also reduces"
-	line "attack power."
+	line "PERSUADE power."
 
-	para "A burn lingers"
-	line "after battle."
+	para "A dis lingers"
+	line "after debate."
 
-	para "Use a BURN HEAL as"
-	line "the cure."
+	para "Use some ALOE to"
+	line "cure it."
 	done
 
 AcademyFreezeText:
-	text "If your #MON is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "If your #MON"
+	line "has stage fright,"
+	cont "it can't act."
 
-	para "It remains frozen"
-	line "after battle."
+	para "It remains scared"
+	line "after the initial"
+    cont "argument."
 
-	para "Thaw it out with"
-	line "an ICE HEAL."
+	para "Get it to snap"
+    line "out of it with a"
+	cont "SLAP!"
 	done
 
 AcademyNotebookText:
@@ -353,25 +358,35 @@ AcademyNotebookText:
 
 AcademyNotebookText1:
 	text "Before throwing a"
-	line "# BALL, weaken"
-	cont "the target first."
+	line "# BALL, argue "
+	cont "with the target."
 
-	para "A poisoned or"
-	line "burned #MON is"
+    para "If you convince it"
+    line "enough, it may be"
+    cont "willing to join "
+    cont "your team."
+
+    para "Careful though, if"
+    line "you argue too much"
+    cont "it may catch on to"
+    cont "your plan and flee" 
+
+	para "An incepted or"
+	line "dissed #MON is"
 	cont "easier to catch."
 
 	para "Keep reading?"
 	done
 
 AcademyNotebookText2:
-	text "Some moves may"
+	text "Some points may"
 	line "cause confusion."
 
 	para "Confusion may make"
-	line "a #MON attack"
-	cont "itself."
+	line "a #MON argue"
+	cont "with itself."
 
-	para "Leaving battle"
+	para "Leaving debate"
 	line "clears up any"
 	cont "confusion."
 
@@ -382,14 +397,14 @@ AcademyNotebookText3:
 	text "People who catch"
 	line "and use #MON"
 
-	para "in battle are"
-	line "#MON trainers."
+	para "in debate are"
+	line "#MON teachers."
 
 	para "They are expected"
 	line "to visit #MON"
 
-	para "GYMS and defeat"
-	line "other trainers."
+	para "COLLEGES and earn"
+	line "DEGREES."
 
 	para "The next page"
 	line "is… Blank!"

@@ -116,9 +116,9 @@ FalknerIntroText:
 	cont "COLLEGE DEAN!"
 
 	para "People say you can"
-	line "clip ISTP-type"
+	line "confound ISTP-type"
 
-	para "#MON's wings"
+	para "#MON's wit"
 	line "with ESTJ"
 	cont "arguments…"
 
@@ -134,12 +134,9 @@ FalknerIntroText:
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
-
-	para "All right."
-	line "Take this."
+	text "All right."
+    line "You pass."
+	cont "Take this."
 
 	para "It's the official"
 	line "#MON LEAGUE"
@@ -159,7 +156,7 @@ FalknerZephyrBadgeText:
 	para "It also enables"
 	line "#MON to use"
 
-	para "FLASH, if they"
+	para "ELUCIDATE, if they"
 	line "have it, anytime."
 
 	para "Here--take this"
@@ -178,17 +175,17 @@ FalknerTMMudSlapText:
 	cont "used only once."
 
 	para "TM31 contains"
-	line "MUD-SLAP."
+	line "DISTRACT."
 
 	para "It reduces the"
 	line "enemy's accuracy"
 
-	para "while it causes"
-	line "damage."
+	para "while also"
+	line "persuading."
 
 	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	line "is a two-pronged"
+	cont "counterpoint."
 	done
 
 FalknerFightDoneText:
@@ -203,25 +200,26 @@ FalknerFightDoneText:
 	para "I'm going to study"
 	line "harder to become"
 
-	para "the greatest bird"
-	line "master!"
+	para "the greatest fast"
+	line "talker!"
 	done
 
 BirdKeeperRodSeenText:
 	text "The keyword is"
-	line "guts!"
+	line "speed!"
 
 	para "Those here are"
-	line "training night and"
+	line "studying night and"
 
-	para "day to become bird"
-	line "#MON masters."
+	para "day to argue as"
+	line "fast as possible."
 
 	para "Come on!"
 	done
 
 BirdKeeperRodBeatenText:
-	text "Gaaah!"
+	text "I wasn't fast"
+    line "enough!"
 	done
 
 BirdKeeperRodAfterBattleText:

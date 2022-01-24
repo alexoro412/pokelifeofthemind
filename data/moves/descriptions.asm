@@ -328,8 +328,8 @@ CutDescription:
 	next "point.@"
 
 GustDescription:
-	db   "Whips up a strong"
-	next "gust of wind.@"
+	db   "Make an argument"
+	next "extremely fast.@"
 
 WingAttackDescription:
 	db   "Strikes the target"
@@ -352,8 +352,8 @@ SlamDescription:
 	next "a tail, vine, etc.@"
 
 VineWhipDescription:
-	db   "Whips the foe with"
-	next "slender vines.@"
+	db   "Assert a fact with"
+	next "no evidence.@"
 
 StompDescription:
 	db   "An attack that may"
@@ -520,8 +520,8 @@ HyperBeamDescription:
 	next "2nd turn: Rest@"
 
 PeckDescription:
-	db   "Jabs the foe with"
-	next "a beak, etc.@"
+	db   "Make a pointed"
+	next "remark.@"
 
 DrillPeckDescription:
 	db   "A strong, spin-"
@@ -856,8 +856,8 @@ SporeDescription:
 	next "induces sleep.@"
 
 FlashDescription:
-	db   "Blinds the foe to"
-	next "reduce accuracy.@"
+	db   "Bring light to"
+	next "new evidence.@"
 
 PsywaveDescription:
 	db   "An attack with"

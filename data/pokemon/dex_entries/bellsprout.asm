@@ -1,10 +1,10 @@
 	db "FLOWER@" ; species name
 	dw 204, 90 ; height, weight
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
+	db   "Despite being"
+	next "rooted in the"
+	next "ground, it is"
 
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	page "known to assert"
+	next "facts with no"
+	next "grounding to them.@"

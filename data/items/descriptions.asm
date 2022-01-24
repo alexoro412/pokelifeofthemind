@@ -295,20 +295,20 @@ AntidoteDesc:
 	next "growing ideas.@"
 
 BurnHealDesc:
-	db   "Heals burned"
+	db   "Fixes dissed"
 	next "#MON.@"
 
 IceHealDesc:
-	db   "Defrosts frozen"
-	next "#MON.@"
+	db   "Cure stage fright"
+	next "with a slap.@"
 
 AwakeningDesc:
 	db   "Awakens sleeping"
 	next "#MON.@"
 
 ParlyzHealDesc:
-	db   "Heals paralyzed"
-	next "#MON.@"
+	db   "Restores "
+	next "confidence@"
 
 FullRestoreDesc:
 	db   "Fully restores HP"

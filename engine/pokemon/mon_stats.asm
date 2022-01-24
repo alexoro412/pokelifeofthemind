@@ -490,8 +490,8 @@ PlaceNonFaintStatus:
 SlpString: db "SLP@"
 PsnString: db "INC@"
 BrnString: db "DIS@"
-FrzString: db "FRZ@"
-ParString: db "PAR@"
+FrzString: db "SFT@"
+ParString: db "EMB@"
 
 ListMoves:
 ; List moves at hl, spaced every [wListMovesLineSpacing] tiles.

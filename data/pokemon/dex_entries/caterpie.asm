@@ -1,10 +1,10 @@
 	db "WORM@" ; species name
 	dw 100, 60 ; height, weight
 
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
+	db   "While it starts "
+	next "out small and weak"
+	next "it is known to "
 
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
+	page "evolve into "
+	next "a form with very"
+	next "thick skin.@"
