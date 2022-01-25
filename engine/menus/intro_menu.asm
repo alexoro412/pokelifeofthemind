@@ -1041,7 +1041,10 @@ RunTitleScreen:
 	jr nz, .done_title
 	call TitleScreenScene
 	farcall SuicuneFrameIterator
-	call DelayFrame
+    push bc
+    ld c, 2 ; ALEX ; slow done the animation
+	call DelayFrames
+    pop bc
 	and a
 	ret
 

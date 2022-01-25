@@ -248,7 +248,7 @@ MrPokemonsHouse_OakText1:
 
 	para "I was just visit-"
 	line "ing my old friend"
-	cont "MR.#MON."
+	cont "DR.#MON."
 
 	para "I heard you were"
 	line "running an errand"
@@ -338,7 +338,7 @@ MrPokemonText_GimmeTheScale:
 	line "care to trade it?"
 
 	para "I can offer this"
-	line "EXP.SHARE I got"
+	line "IQ SHARE I got"
 	cont "from PROF.OAK."
 	done
 

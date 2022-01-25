@@ -207,7 +207,7 @@ SageLiSeenText:
 	text "So good of you to"
 	line "come here!"
 
-	para "SPROUT TOWER is a"
+	para "IVORY TOWER is a"
 	line "place of training."
 
 	para "People and #MON"

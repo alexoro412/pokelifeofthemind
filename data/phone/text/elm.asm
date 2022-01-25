@@ -12,7 +12,7 @@ ElmPhoneHealYourMonText:
 ElmPhoneSawMrPokemonText:
 	text "Hello, <PLAY_G>?"
 
-	para "Did you meet MR."
+	para "Did you meet DR."
 	line "#MON? Great!"
 	cont "Come back safely!"
 	done

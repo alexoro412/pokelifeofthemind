@@ -502,7 +502,7 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
+	text "DR.#MON's house"
 	line "is still farther"
 	cont "up ahead."
 	done

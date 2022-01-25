@@ -16,7 +16,7 @@ Route31VioletGateCooltrainerFScript:
 Route31VioletGateOfficerText:
 	text "Hi there!"
 	line "Did you visit"
-	cont "SPROUT TOWER?"
+	cont "IVORY TOWER?"
 	done
 
 Route31VioletGateCooltrainerFText:

@@ -24,14 +24,16 @@ SplashScreen:
 	call DelayFrames
 
 ; Draw copyright screen
-	callfar Copyright
-	call WaitBGMap
-	ld c, 100
-	call DelayFrames
-	call ClearTilemap
+;	callfar Copyright
+;	call WaitBGMap
+;	ld c, 100
+;	call DelayFrames
+;	call ClearTilemap
 
 ; Stop here if not in GBC mode
 	farcall GBCOnlyScreen
+
+    ret ; don't show game freak into either
 
 ; Play GameFreak logo animation
 	call GameFreakPresentsInit

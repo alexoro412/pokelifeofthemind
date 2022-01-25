@@ -3567,7 +3567,7 @@ ShowSetEnemyMonAndSendOutAnimation:
 	farcall CheckFaintedFrzSlp
 	jr c, .skip_cry
 
-	farcall CheckBattleScene
+	; farcall CheckBattleScene ; still enable animations at the start
 	jr c, .cry_no_anim
 
 	hlcoord 12, 0
@@ -9105,7 +9105,7 @@ BattleStartMessage:
 	farcall CheckSleepingTreeMon
 	jr c, .skip_cry
 
-	farcall CheckBattleScene
+	; farcall CheckBattleScene
 	jr c, .cry_no_anim
 
 	hlcoord 12, 0

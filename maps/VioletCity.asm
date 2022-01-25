@@ -179,9 +179,9 @@ VioletCitySpinningEarl_MovementData:
 
 Text_EarlAsksIfYouBeatFalkner:
 	text "Hello!"
-	line "You are trainer?"
+	line "You are teacher?"
 
-	para "Battle DEAN,"
+	para "Debate DEAN,"
 	line "win you did?"
 	done
 
@@ -205,7 +205,7 @@ Text_HereTeacherIAm:
 VioletCityLassText:
 	text "ENTPs are rumored"
 	line "to appear in"
-	cont "SPROUT TOWER."
+	cont "IVORY TOWER."
 
 	para "They said ISFJ-"
 	line "type #MON moves"
@@ -266,7 +266,7 @@ VioletGymSignText:
 	done
 
 SproutTowerSignText:
-	text "SPROUT TOWER"
+	text "IVORY TOWER"
 
 	para "Experience the"
 	line "Way of #MON"

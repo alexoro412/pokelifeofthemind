@@ -564,8 +564,8 @@ GrowthDescription:
 	next "ATK rating.@"
 
 RazorLeafDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "An easy-to-phrase"
+	next "slogan.@"
 
 SolarbeamDescription:
 	db   "1st turn: Prepare"

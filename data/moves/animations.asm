@@ -379,19 +379,19 @@ BattleAnim_ThrowPokeBall:
 	anim_obj ANIM_OBJ_MASTER_BALL_SPARKLE, 136, 56, $37
 	anim_wait 64
 .Shake:
-	anim_bgeffect ANIM_BG_RETURN_MON, $0, BG_EFFECT_TARGET, $0
-	anim_wait 8
-	anim_incobj 2
-	anim_wait 16
-	anim_sound 0, 1, SFX_CHANGE_DEX_MODE
-	anim_incobj 1
-	anim_wait 32
-	anim_sound 0, 1, SFX_BALL_BOUNCE
-	anim_wait 32
-	anim_wait 32
-	anim_wait 32
-	anim_wait 8
-	anim_setvar $0
+;	anim_bgeffect ANIM_BG_RETURN_MON, $0, BG_EFFECT_TARGET, $0
+;	anim_wait 8
+;	anim_incobj 2
+;	anim_wait 16
+;	anim_sound 0, 1, SFX_CHANGE_DEX_MODE
+;	anim_incobj 1
+;	anim_wait 32
+;	anim_sound 0, 1, SFX_BALL_BOUNCE
+;	anim_wait 32
+;	anim_wait 32
+;	anim_wait 32
+;	anim_wait 8
+;	anim_setvar $0
 .Loop:
 	anim_wait 48
 	anim_checkpokeball
@@ -446,32 +446,32 @@ BattleAnim_SendOutMon:
 
 .Shiny:
 	anim_1gfx ANIM_GFX_SPEED
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	;anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
+	;anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $0
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $8
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $10
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $18
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $20
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $28
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $30
-	anim_wait 4
+	anim_wait 2
 	anim_sound 0, 0, SFX_SHINE
 	anim_obj ANIM_OBJ_SHINY, 48, 96, $38
-	anim_wait 32
+	anim_wait 16
 	anim_ret
 
 .Normal:
@@ -615,42 +615,42 @@ BattleAnim_Miss:
 
 BattleAnim_EnemyDamage:
 .loop
-	anim_bgeffect ANIM_BG_HIDE_MON, $0, BG_EFFECT_TARGET, $0
-	anim_wait 5
-	anim_bgeffect ANIM_BG_SHOW_MON, $0, BG_EFFECT_TARGET, $0
-	anim_wait 5
-	anim_loop 3, .loop
+;	anim_bgeffect ANIM_BG_HIDE_MON, $0, BG_EFFECT_TARGET, $0
+;	anim_wait 5
+;	anim_bgeffect ANIM_BG_SHOW_MON, $0, BG_EFFECT_TARGET, $0
+;	anim_wait 5
+;	anim_loop 3, .loop
 	anim_ret
 
 BattleAnim_EnemyStatDown:
-	anim_call BattleAnim_UserObj_1Row
-	anim_bgeffect ANIM_BG_VIBRATE_MON, $0, BG_EFFECT_TARGET, $0
-	anim_wait 40
-	anim_call BattleAnim_ShowMon_1
-	anim_wait 1
+;	anim_call BattleAnim_UserObj_1Row
+;	anim_bgeffect ANIM_BG_VIBRATE_MON, $0, BG_EFFECT_TARGET, $0
+;	anim_wait 40
+;	anim_call BattleAnim_ShowMon_1
+;	anim_wait 1
 	anim_ret
 
 BattleAnim_PlayerStatDown:
-	anim_call BattleAnim_UserObj_1Row
-	anim_bgeffect ANIM_BG_WOBBLE_PLAYER, $0, $0, $0
-	anim_wait 40
-	anim_call BattleAnim_ShowMon_1
-	anim_wait 1
+;	anim_call BattleAnim_UserObj_1Row
+;	anim_bgeffect ANIM_BG_WOBBLE_PLAYER, $0, $0, $0
+;	anim_wait 40
+;	anim_call BattleAnim_ShowMon_1
+;	anim_wait 1
 	anim_ret
 
 BattleAnim_PlayerDamage:
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $20, $2, $20
-	anim_wait 40
+	; anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $20, $2, $20
+	; anim_wait 40
 	anim_ret
 
 BattleAnim_Wobble:
-	anim_bgeffect ANIM_BG_WOBBLE_SCREEN, $0, $0, $0
-	anim_wait 40
+;	anim_bgeffect ANIM_BG_WOBBLE_SCREEN, $0, $0, $0
+;	anim_wait 40
 	anim_ret
 
 BattleAnim_Shake:
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $20, $2, $40
-	anim_wait 40
+;	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $20, $2, $40
+;	anim_wait 40
 	anim_ret
 
 BattleAnim_Pound:

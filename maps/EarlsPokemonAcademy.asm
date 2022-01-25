@@ -203,7 +203,7 @@ AcademyEarlTeachHowToRaiseWellText:
 	para "If #MON come"
 	line "out in debate even"
 
-	para "briefly, some EXP."
+	para "briefly, some IQ"
 	line "Points it gets."
 
 	para "At top of list put"

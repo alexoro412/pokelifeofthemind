@@ -479,7 +479,7 @@ TeruSama5Desc:
 	db   "?@"
 
 ExpShareDesc:
-	db   "Shares battle EXP."
+	db   "Shares learned IQ."
 	next "Points. (HOLD)@"
 
 OldRodDesc:
@@ -528,7 +528,7 @@ SSTicketDesc:
 
 MysteryEggDesc:
 	db   "An EGG obtained"
-	next "from MR.#MON.@"
+	next "from DR.#MON.@"
 
 ClearBellDesc:
 	db   "Makes a gentle"
@@ -548,7 +548,7 @@ QuickClawDesc:
 
 PsnCureBerryDesc:
 	db   "A self-cure for"
-	next "poison. (HOLD)@"
+	next "inception.@"
 
 GoldLeafDesc:
 	db   "A strange, gold-"
@@ -747,7 +747,7 @@ HardStoneDesc:
 	next "type moves. (HOLD)@"
 
 LuckyEggDesc:
-	db   "Earns extra EXP."
+	db   "Earns extra IQ."
 	next "points. (HOLD)@"
 
 CardKeyDesc:
